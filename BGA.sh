@@ -1,4 +1,4 @@
-g++ "Task2.cpp" -o Task2
+g++ "BGA.cpp" -o running
 
 echo "Hello and welcome to my version of Task2."
 echo 'Are you checking part A, B, or C?'
@@ -46,4 +46,4 @@ else
     read -p 'Constraints from part (as number):' part
 fi
 
-./Task2 $popSize $alpha $k $rate $seed $part
+./running $popSize $alpha $k $rate $seed $part
